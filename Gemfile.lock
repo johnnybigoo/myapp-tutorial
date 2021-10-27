@@ -101,6 +101,7 @@ GEM
       haml (>= 4.0.6, < 6.0)
       html2haml (>= 1.0.1)
       railties (>= 5.1)
+    hpricot (0.8.6)
     html2haml (2.2.0)
       erubis (~> 2.7.0)
       haml (>= 4.0, < 6)
@@ -248,7 +249,9 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   font-awesome-sass (~> 4.3.0)
+  haml
   haml-rails (~> 2.0)
+  hpricot
   jbuilder (~> 2.5)
   jquery-rails
   jquery-ui-rails
@@ -256,6 +259,7 @@ DEPENDENCIES
   mysql2 (>= 0.4.4, < 0.6.0)
   puma (~> 3.11)
   rails (~> 5.2.6)
+  ruby_parser
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
